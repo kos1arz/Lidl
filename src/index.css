@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+button.btn-danger {
+    width: 150px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form input {
+    border: 1px solid;
+}
+
+footer {
+    background-color: #0050AA;
+}
+
+footer svg {
+    fill: #FFFFFF;
+    margin: 10px 25px;
+    height: 25px;
+    width: auto;
+}
+
+.card-header {
+    background-color: #0050AA;
+    color: #fff000;
 }
